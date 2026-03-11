@@ -1,19 +1,21 @@
 def swap(x, y):
     """
-    Task 1
-    - Create a function that would swap the value of x and y using only x and y as variables.
-    - x and y must be numeric.
-    - Return -1 if x and y is not numeric, and
-    - print the swapped values if both x and y are numeric.
+    This function swaps the values of x and y.
+    If either value is not a number, it returns -1.
+    If both are numeric, it prints the swapped values.
     """
 
+    # Check if both inputs are numbers (int or float)
     if not isinstance(x, (int, float)) or not isinstance(y, (int, float)):
         return -1
 
+    # Swap the values of x and y
     x, y = y, x
+
+    # Print the swapped values
     print(x, y)
 
 
-# Task 2
-print(swap("Apple", 10))
-swap(9, 17)
+# Testing the function with the given scenarios
+print(swap("Apple", 10))   # "Apple" is not numeric so it should return -1
+swap(9, 17)                # These are numbers so they will be swapped
