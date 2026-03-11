@@ -1,3 +1,4 @@
+# q1.py
 def swap(x, y):
     """
     This function swaps the values of x and y.
@@ -17,5 +18,5 @@ def swap(x, y):
 
 
 # Testing the function with the given scenarios
-print(swap("Apple", 10))   # "Apple" is not numeric so it should return -1
-swap(9, 17)                # These are numbers so they will be swapped
+print(swap("Apple", 10))
+swap(9, 17)
