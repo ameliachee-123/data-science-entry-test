@@ -1,4 +1,3 @@
-# q1.py
 def swap(x, y):
     """
     This function swaps the values of x and y.
