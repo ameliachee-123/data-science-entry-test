@@ -1,4 +1,3 @@
-# q2.py
 def find_and_replace(lst, find_val, replace_val):
     """
     This function searches through a list and replaces all occurrences
