@@ -1,20 +1,22 @@
 class Car:
     """
-    Task 1
-    - Define a class named Car with attributes: make, model, year
-    - Initialize these attributes in the __init__ method
-    - Add a method named describe_car() that prints information about the car as "Year Make Model"
+    This class represents a car.
+    It stores the make, model, and year of the car.
     """
 
     def __init__(self, make, model, year):
+        # Initialize the attributes when a new car object is created
         self.make = make
         self.model = model
         self.year = year
 
     def describe_car(self):
+        # Print the car information in the format "Year Make Model"
         print(f"{self.year} {self.make} {self.model}")
 
 
-# Task 2
+# Create a car object using the given details
 car1 = Car("Toyota", "Corolla", 2020)
+
+# Call the method to display the car description
 car1.describe_car()
