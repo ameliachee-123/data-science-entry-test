@@ -1,8 +1,8 @@
+# q2.py
 def find_and_replace(lst, find_val, replace_val):
     """
     This function searches through a list and replaces all occurrences
-    of a specific value with another value.
-    It returns the modified list.
+    of a specific value with another value. It returns the modified list.
     """
 
     # Check if the input is actually a list
